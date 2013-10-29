@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Custom-UIActionSheet"
-  s.version      = "0.0.1"
+  s.version      = "0.1"
   s.summary      = "A custom UIActionSheet that supports an insertion of a UIView as a subview."
 
   s.description  = <<-DESC
@@ -75,7 +75,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, svn and HTTP.
   #
 
-  s.source       = { :git => "git@github.com:constantcontact/Custom-UIActionSheet.git", :tag => "0.0.1" }
+  s.source       = { :git => "git@github.com:constantcontact/Custom-UIActionSheet.git", :tag => "0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
