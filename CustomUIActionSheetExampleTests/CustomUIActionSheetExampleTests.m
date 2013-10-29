@@ -1,18 +1,18 @@
 //
-//  Custom_UIActionSheetTests.m
-//  Custom UIActionSheetTests
+//  CustomUIActionSheetExampleTests.m
+//  CustomUIActionSheetExampleTests
 //
-//  Created by Lieu, Klein on 10/21/13.
+//  Created by Lieu, Klein on 10/29/13.
 //  Copyright (c) 2013 Constant Contact. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface Custom_UIActionSheetTests : XCTestCase
+@interface CustomUIActionSheetExampleTests : XCTestCase
 
 @end
 
-@implementation Custom_UIActionSheetTests
+@implementation CustomUIActionSheetExampleTests
 
 - (void)setUp
 {

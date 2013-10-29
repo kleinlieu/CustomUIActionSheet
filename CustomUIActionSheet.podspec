@@ -15,20 +15,19 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "Custom-UIActionSheet"
-  s.version      = "0.1"
+  s.name         = "CustomUIActionSheet"
+  s.version      = "0.1.0"
   s.summary      = "A custom UIActionSheet that supports an insertion of a UIView as a subview."
 
   s.description  = <<-DESC
-                   A longer description of Custom-UIActionSheet in Markdown format.
+                   **Custom UIActionsheet** is an implementation of a UIActionSheet that supports the insertion of a clickable UIView as a subview to the action sheet. This functionality was previously not possible with Apple's provided `UIActionSheet` class, as the action sheet would capture the touch events of its subviews, despite the touches occuring outside of the action sheet's buttons.  
 
-                   * Think: Why did you write this? What is the focus? What does it do?
-                   * CocoaPods will be using this to generate tags, and improve search results.
-                   * Try to keep it short, snappy and to the point.
-                   * Finally, don't worry about the indent, CocoaPods strips it!
+                   Example uses for this custom UIActionSheet would be to include more functionality to your action sheet than just providing a message with "OK" and "Cancel" buttons: adding a UIDatePicker, adding other selectors, or adding switches are just the beginning of what you could do with this new action sheet.  
+
+                   Ultimately, what sets this implementation apart from other solutions out on the web is that it uses as much built-in functionality from Apple as much as possible, instead of the approach several other solutions out on the internet took by rolling out code that merely mimics the UIActionSheet's functionality.  
                    DESC
 
-  s.homepage     = "https://github.com/constantcontact/Custom-UIActionSheet"
+  s.homepage     = "https://github.com/constantcontact/CustomUIActionSheet"
   # s.screenshots  = "http://i.imgur.com/nN1RoWIl.png", "http://i.imgur.com/Gg7ApqSl.png"
 
 
@@ -39,7 +38,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = 'MIT (example)'
+  s.license      = 'MIT'
   # s.license      = { :type => 'MIT', :file => 'LICENSE' }
 
 
@@ -50,8 +49,8 @@ Pod::Spec.new do |s|
   #  found CocoaPods accept just the names.
   #
 
-  s.author       = { "Klein Lieu" => "klieu@constantcontact.com" }
-  # s.authors      = { "Klein Lieu" => "klieu@constantcontact.com", "Gabriel Rinaldi" => "grinaldi@constantcontact.com" }
+  # s.author       = { "Klein Lieu" => "klieu@constantcontact.com" }
+  s.authors      = { "Klein Lieu" => "klieu@constantcontact.com", "Gabriel Rinaldi" => "grinaldi@constantcontact.com" }
   # s.author       = 'Klein Lieu', 'Gabriel Rinaldi'
 
 
@@ -75,7 +74,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, svn and HTTP.
   #
 
-  s.source       = { :git => "git@github.com:constantcontact/Custom-UIActionSheet.git", :tag => "0.1" }
+  s.source       = { :git => "git@github.com:constantcontact/CustomUIActionSheet.git", :tag => "0.1.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -86,8 +85,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = 'Classes', 'Classes/**/*.{h,m}'
-  s.exclude_files = 'Classes/Exclude'
+  s.source_files  = 'CustomUIActionSheet/**/*.{h,m}'
 
   # s.public_header_files = 'Classes/**/*.h'
 
@@ -112,7 +110,7 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-  # s.framework  = 'SomeFramework'
+  s.framework  = 'UIKit'
   # s.frameworks = 'SomeFramework', 'AnotherFramework'
 
   # s.library   = 'iconv'
@@ -125,9 +123,8 @@ Pod::Spec.new do |s|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  # s.requires_arc = true
+  s.requires_arc = true
 
   # s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
   # s.dependency 'JSONKit', '~> 1.4'
-
 end

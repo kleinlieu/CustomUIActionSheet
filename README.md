@@ -23,7 +23,7 @@ Feel free to downlaod this repository and use the `CustomUIActionSheet.h` class 
 ### Usage with CocoaPods
 If you are using CocoaPods, add the following line to your `Podfile`. For more information on CocoaPods, an Objective-C Library Manager, click here: <http://cocoapods.org/>
 
-	pod 'Custom-UIActionSheet', :git => 'git@github.com:constantcontact/Custom-UIActionSheet.git'
+	pod 'CustomUIActionSheet'
 	
 
 ## License

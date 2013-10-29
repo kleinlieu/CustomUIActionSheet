@@ -1,8 +1,8 @@
 //
 //  AppDelegate.h
-//  Custom UIActionSheet
+//  CustomUIActionSheetExample
 //
-//  Created by Lieu, Klein on 10/21/13.
+//  Created by Lieu, Klein on 10/29/13.
 //  Copyright (c) 2013 Constant Contact. All rights reserved.
 //
 
