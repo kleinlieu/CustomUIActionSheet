@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "CustomUIActionSheet"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "A custom UIActionSheet that supports an insertion of a UIView as a subview."
 
   s.description  = <<-DESC
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
                    Ultimately, what sets this implementation apart from other solutions out on the web is that it uses as much built-in functionality from Apple as much as possible, instead of the approach several other solutions out on the internet took by rolling out code that merely mimics the UIActionSheet's functionality.  
                    DESC
 
-  s.homepage     = "https://github.com/constantcontact/CustomUIActionSheet"
+  s.homepage     = "https://github.com/kleinlieu/CustomUIActionSheet"
   # s.screenshots  = "http://i.imgur.com/nN1RoWIl.png", "http://i.imgur.com/Gg7ApqSl.png"
 
 
@@ -74,7 +74,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, svn and HTTP.
   #
 
-  s.source       = { :git => "git@github.com:constantcontact/CustomUIActionSheet.git", :tag => "0.1.0" }
+  s.source       = { :git => "git@github.com:kleinlieu/CustomUIActionSheet.git", :tag => "0.1.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
